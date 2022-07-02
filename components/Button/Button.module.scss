@@ -1,0 +1,18 @@
+.Button{
+    padding: 1rem 3rem;
+    outline: none;
+    border: 1px solid #fff;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    &:hover{
+        background-color: #fff8;
+    }
+    @media screen and (max-width:991px) {
+        padding: 1rem;
+    }
+}
