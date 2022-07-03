@@ -9,7 +9,6 @@ import Outro from '../components/Outro/Outro';
 export default function Rv({ introData, rvData }) {
   const link = useState('https://www.starlink.com/map?source=rv');
   const twoButtons = useState(true);
-  console.log(introData);
   return (
     <div className={styles.container}>
       <main className={styles.main}>

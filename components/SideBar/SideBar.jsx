@@ -2,17 +2,17 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './SideBar.module.scss';
 
-const SideBar = () => {
+const SideBar = ({setShowSideBar}) => {
   return (
     <div className={styles.SideBar}>
       <ul>
-        <li>
+        <li onClick={()=>setShowSideBar(false)}>
           <Link href="/">residential</Link>
         </li>
-        <li>
-          <Link href="/business">business</Link>
+        <li onClick={()=>setShowSideBar(false)}>
+          <Link href="/business" >business</Link>
         </li>
-        <li>
+        <li onClick={()=>setShowSideBar(false)}>
           <Link href="/rv">rv</Link>
         </li>
       </ul>

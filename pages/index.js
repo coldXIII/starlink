@@ -22,7 +22,7 @@ export default function Home({ introData, residentialData }) {
           data={residentialData[4]}
           style={{ direction: 'rtl' }}
         />
-        <FullScreenSection data={residentialData[5]} style={{ left: '10%' }} />
+        <FullScreenSection data={residentialData[5]}  />
         <HalfHeightSection
           data={residentialData[3]}
           style={{ direction: 'rtl' }}

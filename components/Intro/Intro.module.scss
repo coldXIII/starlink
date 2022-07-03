@@ -10,7 +10,7 @@
   text-align: center;
   color: #fff;
   @media screen and (max-width: 450px) {
-    min-height: 80vh;
+    justify-content: space-around;
   }
   &::before {
     content: '';

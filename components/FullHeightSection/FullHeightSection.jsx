@@ -6,7 +6,6 @@ import Button from '../Button/Button';
 
 const FullHeightSection = ({ data, style, height, twoButtons,link }) => {
   const image = urlFor(data.image[0]);
-  console.log(image);
   return (
     <div className={styles.FullHeightSection} style={style}>
       <div className={styles.info}>
